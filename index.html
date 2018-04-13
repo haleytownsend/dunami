@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>SWAPI </title>
+    <title>SWAPI</title>
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
@@ -10,18 +10,11 @@
     <form>
       <label>Search for a character</label><br>
       <input id="characterSearch" type="text" placeholder="chewbacca, R2D2, etc"></input>
-      <button  class="btnClick" type="submit">Search</button>
+      <button class="btnClick" type="submit">Search</button>
     </form>
-    <div class="character">
-      <ul>
-        <li class="name">Name</li>
-        <li class="height">Height</li>
-        <li class="gender">Gender</li>
-        <li class="birthYear">Birth Year</li>
-        <li class="homePlanetName">Home Planet</li>
-        <li class="homePlanetPopulation">Home Planet Population</li>
-    </div>
-
+    <section>
+      <ul class="display"></ul>
+    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="index.js"></script>
   </body>
